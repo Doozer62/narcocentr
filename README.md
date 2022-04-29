@@ -1,2 +1,2 @@
 # narcocentr
-<img src="" alt="">
+<img src="narko.jpg" alt="">
