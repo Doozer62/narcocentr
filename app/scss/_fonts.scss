@@ -1,0 +1,51 @@
+
+@font-face {
+    font-family: 'Ubuntu-Regular';
+    font-weight: 400;
+    font-style: normal;
+    src: local('Ubuntu-Regular'),
+        url(../fonts/Ubuntu-Regular.woff) format('woff'),
+        url(../fonts/Ubuntu-Regular.ttf) format('ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ubuntu-Semibold';
+    font-weight: 600;
+    font-style: normal;
+    src: local('Ubuntu-Semibold'),
+        url(../fonts/Ubuntu-Semibold.woff) format('woff'),
+        url(../fonts/Ubuntu-Semibold.ttf) format('ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ubuntu-Bold';
+    font-weight: 700;
+    font-style: normal;
+    src: local('Ubuntu-Bold'),
+        url(../fonts/Ubuntu-Bold.woff) format('woff'),
+        url(../fonts/Ubuntu-Bold.ttf) format('ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ubuntu-Medium';
+    font-weight: 500;
+    font-style: normal;
+    src: local('Ubuntu-Medium'),
+        url(../fonts/Ubuntu-Medium.woff) format('woff'),
+        url(../fonts/Ubuntu-Medium.ttf) format('ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ubuntu-Light';
+    font-weight: 300;
+    font-style: normal;
+    src: local('Ubuntu-Light'),
+        url(../fonts/Ubuntu-Light.woff) format('woff'),
+        url(../fonts/Ubuntu-Light.ttf) format('ttf');
+    font-display: swap;
+}
+

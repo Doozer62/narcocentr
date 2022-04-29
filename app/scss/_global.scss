@@ -1,0 +1,15 @@
+:root {
+    --color1: #6F2205;
+    --color2: #A36C22;
+}
+
+body {
+    font-size: 18px;
+    @extend %Ubuntu-300;
+    color: #000;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}

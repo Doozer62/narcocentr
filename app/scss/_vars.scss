@@ -1,0 +1,51 @@
+%Ubuntu-300 {
+    font-family: 'Ubuntu-Light', sans-serif;
+    font-weight: 300;
+}
+
+%Ubuntu-400 {
+    font-family: 'Ubuntu-Regular', sans-serif;
+    font-weight: 400;
+}
+
+%Ubuntu-500 {
+    font-family: 'Ubuntu-Medium', sans-serif;
+    font-weight: 500;
+}
+
+%Ubuntu-600 {
+    font-family: 'Ubuntu-Semibold', sans-serif;
+    font-weight: 600;
+}
+
+%Ubuntu-700 {
+    font-family: 'Ubuntu-Bold', sans-serif;
+    font-weight: 700;
+}
+
+%btn {
+    width: 255px;
+    height: 60px;
+    background: rgba(35, 35, 35, 0.2);
+    border: 2px solid #6F2205;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+%text {
+    font-size: 20px;
+    line-height: 125.5%;
+    color: #A36C22;
+    @extend %Ubuntu-400;
+}
+
+%title {
+    font-size: 40px;
+    line-height: 107%;
+    @extend %Ubuntu-700;
+}

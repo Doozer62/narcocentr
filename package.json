@@ -1,0 +1,29 @@
+{
+  "name": "narkocentr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alejandro",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.27.7",
+    "del": "^6.0.0",
+    "dell": "^0.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "jquery": "^3.6.0",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^6.8.4"
+  },
+  "devDependencies": {
+    "gulp-imagemin": "^7.1.0",
+    "sass": "^1.49.9"
+  }
+}
