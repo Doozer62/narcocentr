@@ -49,3 +49,12 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Urbanist-Thin';
+    font-weight: 100;
+    font-style: normal;
+    src: local('Urbanist-Thin'),
+        url(../fonts/Urbanist-Thin.ttf) format('ttf');
+    font-display: swap;
+
+}
