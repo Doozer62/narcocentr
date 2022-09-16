@@ -25,6 +25,8 @@ $(function(){
         scrollbar: {
           el: false,
         },
+
+        
       });
 
 
@@ -80,43 +82,57 @@ $(function(){
 // });
 
 
+var t1 = 0;
+window.onscroll = scroll1;
+
+function scroll1() {
+  var toTop = document.getElementById('goTop');
+  window.scrollY > 0 ? toTop.style.display = 'Block' : toTop.style.display = 'none';
+}
+
+function scrollTo(element) {
+  window.scroll({
+    left: 100,
+    top: element.offsetTop,
+    behavior: "smooth"
+  })
+}
+
+var button = document.querySelector('.go-top');
+var header = document.querySelector('#header');
+
+button.addEventListener('click', () => {
+  scrollTo(header);
+})
 
 
+var button = document.querySelector('#aboutLink');
+var about = document.querySelector('#about');
+
+button.addEventListener('click', () => {
+  scrollTo(about);
+})
 
 
+var button = document.querySelector('#servicesLink');
+var services = document.querySelector('#services');
+
+button.addEventListener('click', () => {
+  scrollTo(services);
+})
 
 
+var button = document.querySelector('#certificatesLink');
+var certificates = document.querySelector('#certificates');
 
-  //   if ($('.swiper-container').length > 0) { //some-slider-wrap-in
-  //     let swiperInstances = [];
-  //     $(".swiper-container").each(function(index, element){ //some-slider-wrap-in
-  //         const $this = $(this);
-  //         $this.addClass("instance-" + index); //instance need to be unique (ex: some-slider)
-  //         $this.parent().find(".swiper-pagination").addClass("pagination-" + index);
-  //         $this.parent().find(".swiper-button-prev").addClass("prev-" + index); //prev must be unique (ex: some-slider-prev)
-  //         $this.parent().find(".swiper-button-next").addClass("next-" + index); //next must be unique (ex: some-slider-next)
-  //         swiperInstances[index] = new Swiper(".instance-" + index, { //instance need to be unique (ex: some-slider)
-  //             // your settings ...
-  //             navigation: {
-  //                 prevEl: ".prev-" + index,  //prev must be unique (ex: some-slider-prev)
-  //                 nextEl: ".next-" + index, //next must be unique (ex: some-slider-next)
-  //             },
-  //             pagination: {
-  //                 el: '.pagination-' + index,
-  //                 type: 'bullets',
-  //                 clickable: true
-  //             },
+button.addEventListener('click', () => {
+  scrollTo(certificates);
+})
 
-  //         });
-  //     });
-  
-  //     // Now you can call the update on a specific instance in the "swiperInstances" object
-  //     // e.g.
-  //     swiperInstances[3].update();
-  //     //or all of them
-  //     setTimeout(function () {
-  //         for (const slider of swiperInstances) {
-  //             slider.update();
-  //         }
-  //     }, 50);
-  // }
+var button = document.querySelector('#sliderDoctors');
+var doctors = document.querySelector('#slider');
+
+button.addEventListener('click', () => {
+  scrollTo(slider);
+})
+
